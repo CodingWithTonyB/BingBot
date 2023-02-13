@@ -18,7 +18,7 @@ def fixError():
     print('trying again')
     wait = wait + 0.1
     print('wait time is now: ' + str(wait))
-    if wait >= 500:
+    if wait >= 200:
         print('Failed')
         sys.exit()
 
